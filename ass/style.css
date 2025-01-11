@@ -1,5 +1,6 @@
 * {
   margin: 30px 50px;
+  /* background-color: rgb(240, 238, 238); */
 }
 
 .fira-sans-thin {
@@ -188,4 +189,82 @@ h3 {
 .btnprimary:hover {
   background-color: rgb(238, 105, 34);
   color: aliceblue;
+}
+.recent-news
+{
+  display: flex;
+  flex-direction: column;
+  margin:  24px 0px ;
+  
+}
+.rn-cont{
+  display: flex;
+  padding: 48px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 24px;
+ border: 2px solid rgb(218, 217, 217);
+  
+}
+.rn1{
+  border-radius: 24px;
+  width: 1000px;
+
+}
+.recent-news h3{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.recent-news p{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.rn-cont h4{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+.rn-cont p{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+#aljazira{
+  width: 20%;
+}
+.rn-cont button{
+  padding: 13px 26px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+cursor: pointer;
+}
+.rn-cont button:hover{
+  background-color: rgb(238, 105, 34);
+  color: aliceblue;
+
 }
