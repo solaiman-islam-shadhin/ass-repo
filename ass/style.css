@@ -1,0 +1,191 @@
+* {
+  margin: 30px 50px;
+}
+
+.fira-sans-thin {
+  font-family: "Fira Sans", serif;
+  font-weight: 100;
+  font-style: normal;
+
+}
+
+p {
+  color: rgba(14, 14, 14, 0.5);
+  font-weight: 500;
+  font-size: 24px;
+}
+
+h3 {
+  font-weight: 700;
+  text-align: left;
+  font-size: 56px;
+
+}
+
+.hd {
+  display: flex;
+  background-color: rgb(198, 228, 214);
+  border-radius: 15px;
+  padding: 80px 0px;
+  gap: 64px;
+  margin: auto;
+}
+
+.hdbtn {
+  width: 270px;
+  height: 56px;
+  background-color: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+/* subscribe newsletter */
+/* .sub-n {
+  display: flex;
+  background-color: rgb(198, 228, 214);
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  padding: 80px 100px 80px 100px;
+
+}
+
+.subscription-form {
+  width: 622px;
+  height: 48px;
+  display: inline-block;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.subscription-form input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+.subscription-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007b5e;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+} */
+
+.vision {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: rgba(14, 14, 14, 0.7);
+
+}
+
+.vision p {
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision h3 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 32px 0px;
+
+}
+
+#vision1 {
+  background-color: rgba(84, 144, 245, 0.2);
+  border: none;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 32px;
+}
+
+#vision2 {
+  background-color: rgb(198, 228, 214);
+  border: none;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 32px;
+}
+
+#vision3 {
+  background-color: rgb(247, 235, 207);
+  border: none;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 32px;
+}
+
+.vision-section p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision-section h5 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.btnprimary {
+
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3;
+}
+
+.btn1 {
+  background-color: rgb(84, 144, 245);
+}
+
+.btn2 {
+  background-color: rgb(9, 161, 92);
+}
+
+.btn3 {
+  background-color: rgb(255, 194, 57);
+}
+
+.btnprimary:hover {
+  background-color: rgb(238, 105, 34);
+  color: aliceblue;
+}
