@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  
+
 }
 
 .fira-sans-thin {
@@ -35,7 +35,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
-}
+  }
 
 .hdbtn {
   width: 270px;
@@ -46,11 +46,17 @@ h3 {
   border-radius: 8px;
   border: none;
   cursor: pointer;
-}
-body{
   
+}
+.hdbtn:hover{
+  background-color: rgb(238, 105, 34);
+  color: aliceblue;
+}
+
+body {
+
   background-color: #F5F5F5;
-  margin: 40px 80px;
+  margin: 50px 100px;
 }
 
 
@@ -85,7 +91,7 @@ body{
 
 .vision-section {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin: auto;
   margin-bottom: 80px;
   gap: 24px;
@@ -164,29 +170,32 @@ body{
   background-color: rgb(238, 105, 34);
   color: aliceblue;
 }
-.recent-news
-{
+
+.recent-news {
   display: flex;
   flex-direction: column;
-  margin:  auto ;
+  margin: auto;
   margin-bottom: 50px;
-  
+
 }
-.rn-cont{
+
+.rn-cont {
   display: flex;
   padding: 48px;
   background-color: rgb(255, 255, 255);
   border-radius: 24px;
- border: 2px solid rgb(218, 217, 217);
- gap: 24px;
- margin-bottom: 50px;
+  border: 2px solid rgb(218, 217, 217);
+  gap: 24px;
+  margin-bottom: 50px;
 }
-.rn1{
+
+.rn1 {
   border-radius: 24px;
   width: 1000px;
 
 }
-.recent-news h3{
+
+.recent-news h3 {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 40px;
@@ -195,144 +204,158 @@ body{
   letter-spacing: 0%;
   text-align: left;
 }
-.recent-news p{
+
+.recent-news p {
   color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-.rn-cont h4{
+
+.rn-cont h4 {
   color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 32px;
-font-weight: 700;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-.rn-cont p{
+
+.rn-cont p {
   color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-#aljazira{
+
+#aljazira {
   width: 20%;
 }
-.rn-cont button{
+
+.rn-cont button {
   padding: 13px 26px;
   border: none;
   border-radius: 8px;
   background-color: rgb(0, 106, 80);
   color: rgb(255, 255, 255);
-font-family: Fira Sans;
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: left;
-cursor: pointer;
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
 }
-.rn-cont button:hover{
+
+.rn-cont button:hover {
   background-color: rgb(238, 105, 34);
   color: aliceblue;
 
 }
+
 /* 4th slide */
 
-.donate{
-  display:flex;
+.donate {
+  display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
-  
+
 }
-.donate h3{
-  text-align: center ;
+
+.donate h3 {
+  text-align: center;
   color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-margin-bottom: 20px;
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 20px;
 
 }
-.donate p{
+
+.donate p {
   color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 
-text-align: center;
+  text-align: center;
 }
-.donate-btn button{
+
+.donate-btn button {
   display: inline-block;
   padding: 40px 50px;
- align-items: center;
- text-align: center;
- box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 16px;
-background: rgb(255, 255, 255);
-color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: left;
-cursor: pointer;
-background-color: rgb(198, 228, 214);
-margin: 20px;
-  
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
+  background-color: rgb(198, 228, 214);
+  margin: 20px;
+
 }
-.donate input{
+
+.donate input {
   width: 1100px;
   box-sizing: border-box;
   border: 1px solid rgb(150, 148, 148);
   background-color: rgb(255, 255, 255);
   padding: 20px 40px;
   color: rgba(14, 14, 14, 0.3);
-font-family: Fira Sans;
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
 
-text-align:center;
+  text-align: center;
 }
-#donate-now{
+
+#donate-now {
   box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.1);
-border-radius: 8px;
-background: rgb(0, 106, 80);
-padding: 17px 34px;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 17px 34px;
 
-color: rgb(255, 255, 255);
-font-family: Fira Sans;
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
-cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  cursor: pointer;
 
 }
-#donate-now:hover{
+
+#donate-now:hover {
   background-color: rgb(238, 105, 34);
   color: aliceblue;
 }
-.donate-btn button:hover{
+
+.donate-btn button:hover {
   background-color: rgb(238, 105, 34);
   color: aliceblue;
 }
-
-.newsletter{
+ /* 5th slide */
+.newsletter {
   margin-top: 80px;
   background-color: #C6E4D6;
   height: 400px;
@@ -341,22 +364,25 @@ cursor: pointer;
   text-align: center;
 
 }
-.newsletter h3{
+
+.newsletter h3 {
   font-weight: bold;
   font-size: 40px;
   text-align: center;
 }
-.newsletter p{
+
+.newsletter p {
   color: #0e0e0ea5;
   padding: 1.5rem 4rem;
 
 }
-.newsletter .search{
+
+.newsletter .search {
   display: flex;
   justify-content: center;
 }
 
-.newsletter input{
+.newsletter input {
   width: 600px;
   height: 55px;
   border: none;
@@ -366,7 +392,8 @@ cursor: pointer;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
-.newsletter button{
+
+.newsletter button {
   width: 150px;
   height: 55px;
   background-color: #006A50;
@@ -377,8 +404,9 @@ cursor: pointer;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
-.newsletter button:hover{
+
+.newsletter button:hover {
   background-color: rgb(238, 105, 34);
   color: aliceblue;
-  
+
 }
